@@ -19,3 +19,4 @@ jobs:
         DOCKERHUB_PASSWORD: ${{ secrets.DOCKERHUB_PASSWORD }}
         enable-url-completion: true
         short-description: ${{ github.event.repository.description }}
+        repository: notmyfault1/sync-demo
